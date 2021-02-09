@@ -1,12 +1,71 @@
+@keyframes gradient
+ {
+    0%
+    {
+      background-position: 0% 50%;
+    }
+    50%
+    {
+      background-position: 100% 50%;
+    }
+    100%
+    {
+      background-position: 0% 50%;
+    }
+  }
+
 .black {
     height: 600px;
     background-color: black;
 }
 
+.red{
+    height: 300px;
+    background-color: red;
+}
+
 body{
-background-color: #6495ED;
+background: linear-gradient(-46deg,#6495ED, #483D8B, #778899);
+background-size: 400% 400%;
+animation: gradient 20s ease infinite;
+overflow: hidden;
 }
 
 p{
     color: snow;
+    font-family: Roboto;
+    margin-top: 15rem;
+    font-size: 1.3em;
+    text-shadow: 0 0.7px black;
+    margin-bottom: -7em;
 }
+
+h4{
+    font-size: 1.2rem;
+    position: relative; top: 15em;
+    font-family: Roboto;
+    color: snow;
+    text-shadow: 0 0.7px black;
+}
+
+.duxy{
+    text-align: center;
+    position: relative; left: 7%;  
+}
+
+.btn{
+    position: relative; left: 2%;
+    margin-top: 9em;
+    font-weight: 500;
+    line-height: 2.5;
+}
+
+img, svg{
+    position: relative; left: 1rem; top: 12rem;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
