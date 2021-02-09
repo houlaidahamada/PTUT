@@ -39,8 +39,8 @@ overflow: hidden;
 p{
     color: snow;
     font-family: Roboto;
-    margin-top: 15rem;
-    font-size: 1.3em;
+    margin-top: 13rem;
+    font-size: 1.2em;
     text-shadow: 0 0.7px black;
     margin-bottom: -7em;
 }
@@ -55,7 +55,7 @@ h4{
 
 .duxy{
     text-align: center;
-    position: relative; left: 7%;  
+    position: relative; left: 5%;  
 }
 
 .btn{
@@ -66,7 +66,7 @@ h4{
 }
 
 img, svg{
-    position: relative; left: 1rem; top: 12rem;
+    position: relative; left: 1rem; top: 8rem;
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
