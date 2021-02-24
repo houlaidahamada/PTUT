@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Accueil</title>
+
+    <!-- Favicons : -->
+    <link rel="apple-touch-icon" sizes="57x57" href="publics/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="publics/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="publics/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="publics/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="publics/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="publics/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="publics/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="publics/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="publics/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="publics/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="publics/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="publics/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="publics/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="publics/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="publics/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS : -->
+    <link rel="stylesheet" href="publics/css/bootstrap.min.css">
+    <link rel="stylesheet" href="publics/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- JS : -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="publics/js/accueil.js"></script>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <img src="publics/images/Favicon.png" class="img-responsive" id="rotateImg" alt="Logo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <div class="num">5833</div>
+                <p>Etudiants inscrits</p>
+            </div>
+            
+            <div>   
+                <p id="short-text" class="col" onclick="changeTextEtat()" style="cursor: pointer;">
+                    En savoir plus...
+                </p>
+
+                <p id="long-text" class="col" style="display: none;cursor: pointer;" onclick="changeTextEtat()">
+                    AMU'R est un réseau social basé sur les rencontres et échanges entre étudiants des universités d'Aix-Marseille mais aussi des enseignants.
+                    Sur ce réseau social les étudiants peuvent échanger sur divers sujets répartis dans des groupes spécifiques, l'algorithme du site nous permet de cibler les étudiants avec des groupes et discussions qui leurs correspondent.
+                    Les utilisateurs peuvent partager des fichiers dans des discutions mais aussi créer des sondages et des quizz et pourront par la suite visualiser les réponses avec des graphes et des données pointues.
+                </p>
+
+                <button type="button" class="col btn btn-dark"><a href=connexion>Me Connecter</a></button>
+                <button type="button" class="col btn btn-secondary"><a href="inscription">M'inscrire</a></button> 
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer></footer>
+</html>
