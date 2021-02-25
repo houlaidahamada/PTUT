@@ -171,8 +171,47 @@ input:hover, input[type="text"]:focus, input[type="password"]:focus{
 @media screen and (max-width: 800px) {
   #rotateImg{
     width: 40%;
+    margin-left: 24rem;
   }
+  .profil h1{
+    font-size: 1.3rem;
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+    position: relative;
+    right: 0.5rem
+  }
+  .profil img{
+    width: 110px;
+    position: relative;
+    right: 7rem;
+    margin-top: -9rem;
+    margin-bottom: 9rem;
+  }
+  .Stats th{
+    padding: 20px;
+    color:rgba(255, 255, 255, 0.945);
+    font-size: 0.8rem;
+    }
+  
 } 
+
+@media screen and (min-width: 900px and max-width: 1080px){
+  .profil h1{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 8rem;
+    position: relative;
+    right: 27rem;
+  }
+  .profil img{
+    width: 190px;
+    position: relative;
+    right: 36rem;
+    margin-top: -9rem;
+    margin-bottom: 14rem;
+  }
+
+}
 
 @media screen and (min-width: 1200px) {
   .profil h1{
@@ -180,12 +219,12 @@ input:hover, input[type="text"]:focus, input[type="password"]:focus{
     margin-bottom: 4rem;
     margin-top: 8rem;
     position: relative;
-    right: 38rem;
-  }  
-
+    right: 27rem;
+  }
   .profil img{
     width: 190px;
-    position: relative; right: 50rem;
+    position: relative;
+    right: 38rem;
     margin-top: -9rem;
     margin-bottom: 14rem;
   }
@@ -193,7 +232,7 @@ input:hover, input[type="text"]:focus, input[type="password"]:focus{
   .Stats th{
     padding: 15px;
     color:rgba(255, 255, 255, 0.945);
-  }
+    }
 
   #h2box{
     color: white;
